@@ -1,0 +1,193 @@
+ERROR - 2022-02-13 09:57:42 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 09:57:42 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 09:58:14 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 09:58:14 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 10:00:00 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 10:00:00 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 14:05:57 --> Duplicate entry 'r' for key 'category'
+CRITICAL - 2022-02-13 14:05:57 --> Duplicate entry 'r' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 14:06:19 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 14:06:19 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 14:07:14 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 14:07:14 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 14:07:59 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 14:07:59 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 14:08:20 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 14:08:20 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(43): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-13 14:09:34 --> Duplicate entry 'oppo' for key 'category'
+CRITICAL - 2022-02-13 14:09:34 --> Duplicate entry 'oppo' for key 'category'
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\ci\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\ci\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ci\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ci\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ci\app\Controllers\Category.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->save()
+#10 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-13 14:29:40 --> Undefined index: query
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->select()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 14:43:41 --> Undefined index: parent_id
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->select()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 14:44:16 --> Undefined index: parent_id
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->select()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 14:45:38 --> Undefined index: parent_id
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->select()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 14:45:53 --> Too few arguments to function App\Models\CategoryModel::getSpecificCategories(), 0 passed in C:\xampp\htdocs\ci\app\Controllers\Category.php on line 57 and exactly 1 expected
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(57): App\Models\CategoryModel->getSpecificCategories()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->select()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 14:54:29 --> Too few arguments to function App\Models\CategoryModel::getCategories(), 0 passed in C:\xampp\htdocs\ci\app\Controllers\Category.php on line 12 and exactly 1 expected
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(12): App\Models\CategoryModel->getCategories()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->index()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-13 15:22:45 --> Array to string conversion
+#0 C:\xampp\htdocs\ci\app\Controllers\Category.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(825): App\Controllers\Category->select()
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 C:\xampp\htdocs\ci\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
